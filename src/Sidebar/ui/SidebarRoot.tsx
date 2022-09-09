@@ -841,7 +841,6 @@ export function SidebarRoot(props: IProps): React.ReactElement {
             </ListItemText>
           </ListItem>
           <ListItem
-              classes={{ root: classes.listitem }}
               button
               key={"Dev"}
               className={clsx({

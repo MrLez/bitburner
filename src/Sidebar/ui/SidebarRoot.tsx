@@ -327,7 +327,7 @@ export function SidebarRoot(props: IProps): React.ReactElement {
       } else if (event.code === KEYCODE.G && event.altKey && props.player.gang) {
         event.preventDefault();
         clickGang();
-      } else if (event.code == KEYCODE.D && event.code == KEYCODE.E && event.code == KEYCODE.V && event.code == KEYCODE.altKey) {
+      } else if (event.code == KEYCODE.B && event.code == KEYCODE.S && event.code == KEYCODE.altKey) {
         event.preventDefault();
         clickDev();
       }

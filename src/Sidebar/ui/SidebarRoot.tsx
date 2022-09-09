@@ -840,8 +840,7 @@ export function SidebarRoot(props: IProps): React.ReactElement {
               <Typography color={props.page !== Page.Options ? "secondary" : "primary"}>Options</Typography>
             </ListItemText>
           </ListItem>
-          {process.env.NODE_ENV === "development" && (
-            <ListItem
+          <ListItem
               classes={{ root: classes.listitem }}
               button
               key={"Dev"}
@@ -859,7 +858,6 @@ export function SidebarRoot(props: IProps): React.ReactElement {
                 <Typography color={props.page !== Page.DevMenu ? "secondary" : "primary"}>Dev</Typography>
               </ListItemText>
             </ListItem>
-          )}
         </Collapse>
       </List>
     </Drawer>
